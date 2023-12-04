@@ -76,7 +76,7 @@ inside the EEPROM and go to Step 2.
 - HMI_ECU should send the Password to the Control_ECU and it should compare it
 with the one saved in the EEPROM.
 
-  - if two passwords are matched:
+- if two passwords are matched:
 • rotates motor for 15 seconds CW and displays a message on the screen
 “Door is Unlocking”
 • hold the motor for 3 seconds.
@@ -110,7 +110,7 @@ password.
 - if two passwords are matched then open the door or change the password in steps
 3 and 4.
 
-  - If the two passwords are not matched for the third consecutive time, then:
+- If the two passwords are not matched for the third consecutive time, then:
   
 • Activate Buzzer for 1 minute.
 • Display error message on LCD for 1 minute.
