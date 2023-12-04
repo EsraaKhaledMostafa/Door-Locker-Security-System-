@@ -60,6 +60,7 @@ checking, opening the door, and activating the system alarm.
 - Press the enter button.
   
 - HMI_ECU should send the two passwords to the Control_ECU through the UART.
+  
 1- If the two passwords are matched then the system has a password now save it
 inside the EEPROM and go to Step 2.
 
@@ -110,6 +111,7 @@ password.
 3 and 4.
 
   - If the two passwords are not matched for the third consecutive time, then:
+  
 • Activate Buzzer for 1 minute.
 • Display error message on LCD for 1 minute.
 • System should be locked no inputs from Keypad will be accepted during
