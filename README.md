@@ -26,7 +26,7 @@ Keypad
 - APP
 
 - ### ECU 2 -> Control_ECU
-- - MCAL:
+- MCAL:
 GPIO
 UART
 Timer
