@@ -60,10 +60,10 @@ checking, opening the door, and activating the system alarm.
 - Press the enter button.
   
 - HMI_ECU should send the two passwords to the Control_ECU through the UART.
-  1- If the two passwords are matched then the system has a password now save it
+1- If the two passwords are matched then the system has a password now save it
 inside the EEPROM and go to Step 2.
 
- 2- If the two passwords are unmatched then repeat step 1.
+2- If the two passwords are unmatched then repeat step 1.
  
 ### Step2 - Main Options
 - The LCD will always display the main system option: " Open Door + Change Password -"
